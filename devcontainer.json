@@ -1,7 +1,7 @@
 {
   "name": "Python 3.11 Bot Environment",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "postCreateCommand": "pip install --upgrade pip && pip install aiogram==2.25.1 phonenumbers",
+  "postCreateCommand": "pip install --upgrade pip",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -10,4 +10,3 @@
     }
   }
 }
-
